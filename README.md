@@ -22,5 +22,5 @@ I made use of flex box to layout my web page.
 
 I hope to add more functonalities to my portfolio with javascript as i start to learn it, and become proficient in it. 
 
-# Concdlusion 
+# Conclusion 
 I am open to learn from you as you go to my repo. Thank you
