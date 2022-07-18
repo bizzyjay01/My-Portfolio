@@ -602,6 +602,7 @@ footer > p {
   .text-control {
     width: 60%;
   }
+} 
   
   
   @media (max-width: 370px) {
@@ -610,14 +611,5 @@ footer > p {
   font-weight: 400;
   padding: 10px 10px;
       margin-right: 0;
-  
-    }
-
-  /* .container {
-    flex-direction: column;
-  }
-
-  .info-list {
-    flex-direction: column;
-  } */
+ }
 }
