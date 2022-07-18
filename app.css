@@ -542,10 +542,6 @@ footer > p {
     font-size: 25px;
   }
 
-  .fancy-button {
-    display: flex;
-  }
-
   .fancy-button .header-button {
     font-size: 12px;
     font-weight: 400;
