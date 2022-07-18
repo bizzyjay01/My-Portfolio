@@ -4,7 +4,7 @@ My portfolio Website using HTML and CSS
 # Table of Contents
 * [Introduction](#Introduction)
 * [Technologies](#Technologies)
-* [General Info](#General Info)
+* [General Info](#General-Info)
 * [Conclusion](#Conclusion)
 
 
