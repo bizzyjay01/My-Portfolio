@@ -605,11 +605,15 @@ footer > p {
 } 
   
   
- @media (max-width: 370px) {
-  .button {
-    font-size: 10px;
-    font-weight: 400;
-    padding: 10px 10px;
-    margin-right: 0;
+@media (max-width: 370px) {
+    .button {
+      font-size: 10px;
+      font-weight: 400;
+      padding: 10px 5px;
+      border-radius: 1.5em;
+    }
+
+    .button.learn-more {
+      margin-left: 10px;
+    }
   }
-}
