@@ -9,7 +9,7 @@ My portfolio Website using HTML and CSS
 
 
 # Introduction
-This is a responsive personal portfolio website where i can keep my subsequent projects for potential developers and clients to view my work while also letting me improve on my skills. I built this portfolio majorlly to sharpen my HTML and CSS skills.
+This is a responsive personal portfolio website where i can keep my subsequent projects for potential developers and clients to view my work while also letting me improve on my skills. I built this portfolio majorly to sharpen my HTML and CSS skills.
 
 # Technologies
 HTML and CSS
