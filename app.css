@@ -591,6 +591,13 @@ footer > p {
     /* display: inline; */
     margin-right: ;
   }
+  
+  
+  .skills-section {
+    flex-direction: column;
+    
+  }
+
 
   /* My Projects section */
 
