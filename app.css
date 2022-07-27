@@ -1,5 +1,5 @@
 html {
-  width: 100%;
+  width: 100vh;
 }
 
 * {
@@ -215,7 +215,7 @@ nav a {
 .info-list li {
   list-style: none;
   font-size: 27px;
-  display: block;
+ display: block;
   padding: 10px 0;
   margin-right: 0;
 }
@@ -501,6 +501,7 @@ footer > p {
     margin-top: 20px;
   }
   .info-list {
+    
     flex-direction: column;
   }
 
@@ -653,9 +654,7 @@ footer > p {
       margin-left: 10px;
     }
 
-    .info-list {
-      flex-direction: column;
-    }
+    
 
     .project-work {
       display: flex;
