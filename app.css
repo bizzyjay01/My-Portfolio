@@ -1,10 +1,6 @@
-html {
-  width: 100%;
-}
 
-* {
-  margin: 0;
-}
+
+
 
 body {
   margin: 0;
@@ -12,8 +8,9 @@ body {
   box-sizing: border-box;
   font-family: "montserrat", sans-serif;
 
-  width: 100%;
-  min-height: 100vh;
+
+ 
+
 }
 
 nav {
@@ -180,14 +177,15 @@ nav a {
 }
 
 .about-me-info {
-  width: 1256px;
+
   max-width: 60%;
   margin-left: 50px;
   /* margin-left: auto; */
   flex-grow: 1; 
 }
 
-.about-me-info h2 {
+.role {
+  
   margin-top: 0;
   padding: 0;
   font-size: 40px;
@@ -195,17 +193,21 @@ nav a {
 }
 
 .info {
-  padding: 25px 0;
+  padding-top: 25px;
   font-size: 30px;
   line-height: 1.5em;
+  margin-bottom: 0;
 }
 
 .info-list {
   display: flex;
+
   line-height: 1em;
   font-size: 25px;
   
 }
+
+
 
 .info-list span {
   font-weight: 700;
@@ -217,19 +219,20 @@ nav a {
   font-size: 27px;
  display: block;
   padding: 10px 0;
-  margin-right: 0;
+  margin-bottom: 0;
+  
 }
 
-.info-list ul:first-of-type {
+/* .info-list ul:first-of-type {
   width: 500px;
 }
 
 .info-list ul:nth-of-type(2) {
   width: 500px;
-}
+} */
 
 .button {
-  margin-top: 60px;
+  margin-top: 30px;
   font-size: 20px;
   font-weight: 600;
   padding: 15px 25px;
@@ -368,8 +371,13 @@ figcaption,
 .project-work.first figcaption,
 .about-project {
   padding-top: 35px;
+  padding-bottom: 0;
 }
 
+.about-project {
+  margin: 0;
+  padding-top: 20px;
+}
 .project-button {
   text-decoration: none;
   background: none;
@@ -480,12 +488,30 @@ footer > p {
     margin-top: 40px;
   }
 
-  .header-intro {
-    margin-left: ;
-  }
+  
 
   .container {
     flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    padding-bottom: 40px;
+  }
+  
+  .about-me-info {
+    margin: 0;
+  }
+
+  .role {
+    margin-top: 20px;
+  margin-bottom: 0;
+  padding: 0;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+  .info {
+    width: 150%;
+    margin-top: 0;
     
   }
 }
@@ -503,7 +529,11 @@ footer > p {
   .info-list {
     
     flex-direction: column;
+   
+    
   }
+
+  
 
   form button {
     padding: 15x 10px;
@@ -512,6 +542,9 @@ footer > p {
 }
 
 @media (max-width: 900px) {
+
+  
+  
   nav {
     font-size: 1.5em;
     display: flex;
@@ -567,14 +600,7 @@ footer > p {
 
   /* About me section */
 
-  .container {
-    width: 900px;
-  }
-
-  .profile-photo {
-    width: 100%;
-  }
-
+  
   .about-me-info h2 {
     margin-top: 0;
     padding-top: 20px;
@@ -583,21 +609,24 @@ footer > p {
     font-weight: 600;
   }
 
+  .role {
+    font-size: 25px;
+  }
+
   .info {
     padding: 25px 0;
     font-size: 20px;
-    max-width: 800px;
-
-    margin-right: px;
-    /* border: 1px solid red; */
-    width: 150%;
-
-    line-height: 1.5em;
+   line-height: 1.5em;
   }
 
   .info-list {
     display: flex;
-    max-width: 100%;
+    justify-content: space-between;
+  
+  }
+
+  .info-list li {
+    font-size: 20px;
   }
 
   .about-me-info {
@@ -642,7 +671,19 @@ footer > p {
 } 
   
   
-@media (max-width: 370px) {
+@media (max-width: 400px) {
+
+
+  html, body {
+    overflow-x: hidden;
+  }
+
+  .portfolio {
+    font-size: 1rem;
+  }
+  .main-nav-item a {
+    font-size: 1rem;
+  }
     .button {
       font-size: 10px;
       font-weight: 400;
@@ -674,5 +715,9 @@ footer > p {
     }
     .project-button.source-code {
       margin-left: 0;
+    }
+
+    .info-list li {
+      font-size: 17px;
     }
   }
