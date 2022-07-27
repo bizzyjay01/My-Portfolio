@@ -61,6 +61,7 @@ nav a {
   font-family: "roboto", sans-serif;
   font-weight: 600;
   border: none;
+  margin-left: 15px;
 }
 
 .portfolio span {
@@ -71,7 +72,7 @@ nav a {
   background-color: #1892d3;
   width: 100%;
 
-  padding: 15px 25px;
+  padding: 15px 0;
 }
 
 .header-content {
@@ -198,7 +199,7 @@ nav a {
 
 .info-list {
   display: flex;
-  max-width: 100%;
+  
 }
 
 .info-list span {
@@ -480,6 +481,7 @@ footer > p {
 
   .container {
     flex-direction: column;
+    
   }
 }
 
@@ -603,6 +605,19 @@ footer > p {
   #projects {
     flex-direction: column;
   }
+  .section-header {
+    padding-bottom: 20px;
+    font-size: 20px;
+    
+  }
+
+  .project-work {
+    margin-top: 40px;
+  }
+
+  .project-work:first-of-type {
+    margin-top: 0;
+  }
 
   .contact-form,
   .text-control {
@@ -621,5 +636,29 @@ footer > p {
 
     .button.learn-more {
       margin-left: 10px;
+    }
+
+    .info-list {
+      flex-direction: column;
+    }
+
+    .project-work {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .form-group-button {
+      font-size: 15px;
+      padding: 15px 15px;
+     
+    }
+
+    .project-button {
+      font-size: 15px;
+      padding: 20px 20px;
+    }
+    .project-button.source-code {
+      margin-left: 0;
     }
   }
