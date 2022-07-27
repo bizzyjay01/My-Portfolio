@@ -176,12 +176,15 @@ nav a {
 .profile-photo img {
   max-width: 100%;
   border-radius: 10px;
+
 }
 
 .about-me-info {
   width: 1256px;
   max-width: 60%;
   margin-left: 50px;
+  /* margin-left: auto; */
+  flex-grow: 1; 
 }
 
 .about-me-info h2 {
@@ -193,12 +196,14 @@ nav a {
 
 .info {
   padding: 25px 0;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 1.5em;
 }
 
 .info-list {
   display: flex;
+  line-height: 1em;
+  font-size: 25px;
   
 }
 
@@ -209,9 +214,9 @@ nav a {
 .info-list ul,
 .info-list li {
   list-style: none;
-  font-size: 20px;
+  font-size: 27px;
   display: block;
-  padding: 12.5px 0;
+  padding: 10px 0;
   margin-right: 0;
 }
 
@@ -591,7 +596,7 @@ footer > p {
 
   .about-me-info .button.learn-more {
     /* display: inline; */
-    margin-right: ;
+   
   }
   
   
