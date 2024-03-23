@@ -95,7 +95,7 @@ nav a {
 }
 
 .header-item.name {
-  font-size: 5rem;
+  font-size: 4rem;
   text-transform: uppercase;
   font-weight: 700;
   padding: 30px 0;
@@ -294,42 +294,42 @@ nav a {
 
 .html {
   background-color: #1892d3;
-  width: 70%;
+  width: 100%;
   height: 10px;
   border-radius: inherit;
 }
 
 .css {
   background-color: #ffb703;
-  width: 65%;
+  width: 100%;
   height: 10px;
   border-radius: inherit;
 }
 
 .bootstrap {
   background-color: #f94144;
-  width: 80%;
+  width: 100%;
   height: 10px;
   border-radius: inherit;
 }
 
 .github {
   background-color: #d90429;
-  width: 60%;
+  width: 100%;
   height: 10px;
   border-radius: inherit;
 }
 
 .javascript {
   background-color: #000814;
-  width: 40%;
+  width: 100%;
   height: 10px;
   border-radius: inherit;
 }
 
 .react {
   background-color: #00afb9;
-  width: 30%;
+  width: 100%;
   height: 10px;
   border-radius: inherit;
 }
