@@ -1,5 +1,5 @@
 # My-Portfolio
-My portfolio Website using HTML and CSS
+My portfolio Website
 
 # Table of Contents
 * [Introduction](#Introduction)
