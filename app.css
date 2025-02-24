@@ -8,9 +8,6 @@ body {
   box-sizing: border-box;
   font-family: "montserrat", sans-serif;
 
-
- 
-
 }
 
 
@@ -21,7 +18,6 @@ li {
   margin: 0;
   padding: 0;
   list-style: none;
- 
 }
 
 nav a {
@@ -145,7 +141,8 @@ nav a {
   margin-bottom: 40px;
   background-image: none;
   max-width: 500px;
-  border-radius: 50%;
+  border-radius: 60%;
+  height: 26rem;
 }
 
 .section-header {
